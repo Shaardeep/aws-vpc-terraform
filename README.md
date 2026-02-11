@@ -57,7 +57,15 @@ This setup follows a basic 3-tier architecture approach:
 
 ## 📂 Project Structure
 
-
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── provider.tf
+├── terraform.tfvars
+└── modules/
+├── vpc/
+├── ec2/
+├── alb/
 
 ---
 
