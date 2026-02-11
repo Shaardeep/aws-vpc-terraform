@@ -1,1 +1,60 @@
 # aws-vpc-terraform
+
+# AWS 3-Tier VPC Architecture using Terraform
+
+This project provisions a production-ready AWS VPC infrastructure using Terraform.
+
+## 📌 Overview
+
+The infrastructure includes:
+
+- Custom VPC
+- Public and Private Subnets (Multi-AZ)
+- Internet Gateway
+- NAT Gateway
+- Route Tables
+- Security Groups
+- EC2 Instances
+- Application Load Balancer
+
+This setup follows a basic 3-tier architecture approach:
+- Public subnet → Load Balancer
+- Private subnet → Application Servers
+- Database subnet (optional extension)
+
+---
+
+## 🏗️ Architecture Components
+
+### Networking
+- VPC with custom CIDR block
+- 2 Public Subnets
+- 2 Private Subnets
+- Internet Gateway for public access
+- NAT Gateway for private subnet outbound internet access
+- Route tables properly associated
+
+### Security
+- Security groups with least privilege principle
+- SSH allowed only from trusted IP
+- HTTP/HTTPS allowed via Load Balancer
+
+### Compute
+- EC2 instances deployed in private subnet
+- ALB deployed in public subnet
+
+---
+
+## 🛠️ Tools Used
+
+- Terraform
+- AWS EC2
+- AWS VPC
+- AWS ALB
+- AWS IAM
+- AWS Route53 (optional)
+
+---
+
+## 📂 Project Structure
+
