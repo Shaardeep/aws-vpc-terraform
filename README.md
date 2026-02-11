@@ -20,7 +20,7 @@ The infrastructure includes:
 This setup follows a basic 3-tier architecture approach:
 - Public subnet → Load Balancer
 - Private subnet → Application Servers
-- Database subnet (optional extension)
+- Database subnet
 
 ---
 
