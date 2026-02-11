@@ -57,3 +57,44 @@ This setup follows a basic 3-tier architecture approach:
 
 ## 📂 Project Structure
 
+
+
+---
+
+## ⚙️ Key Features
+
+- Modular Terraform structure
+- Reusable VPC module
+- Parameterized variables
+- Environment ready structure (dev/prod)
+- Infrastructure as Code best practices
+
+---
+
+## 🔐 Security Considerations
+
+- Private EC2 instances not publicly accessible
+- Controlled inbound rules
+- IAM roles used instead of hardcoded credentials
+
+---
+
+## 📊 Real-World Use Case
+
+This infrastructure can be used for:
+- Hosting containerized applications
+- Deploying Node.js or Python backend
+- Scalable web applications
+- Production-grade cloud setup
+
+---
+
+## 🚀 Learning Outcomes
+
+- Hands-on VPC networking
+- Route table associations
+- NAT vs IGW understanding
+- Modular Terraform design
+- Infrastructure lifecycle management
+
+
