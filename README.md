@@ -52,7 +52,6 @@ This setup follows a basic 3-tier architecture approach:
 - AWS VPC
 - AWS ALB
 - AWS IAM
-- AWS Route53 (optional)
 
 ---
 
